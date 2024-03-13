@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactez-nous</title>
+  <link rel="stylesheet" href="/stylecon.css">
+</head>
+<body>
+  <nav>
+    <a href="/">Accueil</a>
+    <a href="/services">Nos Services</a>
+    <a href="/contact">Contactez-nous</a>
+  </nav>
+  <h1>Contactez-nous</h1>
+  
+  <div class="contact-form">
+    <form action="/submit-form" method="POST">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required><br><br>
+      
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="message">Message :</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+      
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+</body>
+</html>
